@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import helloUnknownName from '../src/cli.js';
+import thisNumberEven from './brain-even.js';
 
-helloUnknownName();
+thisNumberEven();
