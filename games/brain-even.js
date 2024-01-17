@@ -5,7 +5,7 @@ import helloUnknownName from '../src/cli.js';
 import threeRoundsGame from '../src/index.js';
 
 const playerName = helloUnknownName();
-console.log('Answer "yes" if number even, otherwise answer "no".')
+console.log('Answer "yes" if number even, otherwise answer "no".');
 
 const thisNumberEven = () => {
   const randomNumberFromZeroToTen = 11;
@@ -14,9 +14,9 @@ const thisNumberEven = () => {
   let resultForGame;
 
   console.log(`Question: ${randomNumber}`);
-  const firstAnswer = readlineSync.question('Your answer: ');
-  if (firstAnswer !== correctAnswerToTheQuestion()) {
-    console.log(`'${firstAnswer}' is wrong answer ;(. Correct answer was '${correctAnswerToTheQuestion()}'.\nLet's try again, ${playerName}!`);
+  const playerAnswer = readlineSync.question('Your answer: ');
+  if (playerAnswer !== correctAnswerToTheQuestion()) {
+    console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswerToTheQuestion()}'.\nLet's try again, ${playerName}!`);
     resultForGame = 'Defeat';
     return resultForGame;
   }
