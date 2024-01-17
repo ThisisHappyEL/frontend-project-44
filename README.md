@@ -6,4 +6,4 @@
 
 asciinema по пятому шагу: https://asciinema.org/a/cUdsSRQvJ8CHnFBiMJNadnYX7 (Уже не актуально. Автоматически удалилась. Надеюсь от шестого сохранится)
 
-asciinema по пятому шагу: [https://asciinema.org/a/cUdsSRQvJ8CHnFBiMJNadnYX7](https://asciinema.org/a/EQbiBujpEHaA4ti4Yr2cyHkEI)https://asciinema.org/a/EQbiBujpEHaA4ti4Yr2cyHkEI
+asciinema по пятому шагу: https://asciinema.org/a/EQbiBujpEHaA4ti4Yr2cyHkEI
