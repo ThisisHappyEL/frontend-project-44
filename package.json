@@ -5,7 +5,8 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "games/brain-even.js",
-    "brain-calc": "games/brain-calc.js"
+    "brain-calc": "games/brain-calc.js",
+    "brain-gcd": "games/brain-gcd.js"
   },
   "description": "[![Actions Status](https://github.com/ThisisHappyEL/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ThisisHappyEL/frontend-project-44/actions)",
   "main": "index.js",

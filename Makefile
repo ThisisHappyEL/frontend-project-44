@@ -10,6 +10,9 @@ brain-even:
 brain-calc:
 	node games/brain-calc.js
 
+brain-gcd:
+	node games/brain-gcd.js
+
 publish:
 	npm publish --dry-run
 
