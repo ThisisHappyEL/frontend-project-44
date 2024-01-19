@@ -7,7 +7,7 @@ import threeRoundsGame from '../src/index.js';
 const playerName = helloUnknownName();
 
 const thisNumberEven = () => {
-  console.log("Answer 'yes' if number even otherwise answer 'no'.");
+  console.log('Answer "yes" if the number is even, otherwise answer "no".');
   const randomNumberFromZeroToTen = 11;
   const randomNumber = Math.floor(Math.random() * randomNumberFromZeroToTen);
   const correctAnswerToTheQuestion = () => (randomNumber % 2 === 0 ? 'yes' : 'no');
