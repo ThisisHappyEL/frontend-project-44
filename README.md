@@ -11,3 +11,5 @@ asciinema к шестому шагу: https://asciinema.org/a/EQbiBujpEHaA4ti4Yr
 asciinema к седьмому шагу: https://asciinema.org/a/dDxToep1jmgGS9Gpvi2HdTlpt
 
 asciinema к восьмому шагу: https://asciinema.org/a/vPODwau8X0Ff5RP7CO4NYZGwv
+
+asciinema к девятому шагу: https://asciinema.org/a/skiEfZ9UgIuugkV1Tun2JNbiz
