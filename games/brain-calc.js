@@ -5,9 +5,9 @@ import helloUnknownName from '../src/cli.js';
 import threeRoundsGame from '../src/index.js';
 
 const playerName = helloUnknownName();
-console.log('What is the result of the expression?');
 
 const calcThisHuman = () => {
+  console.log('What is the result of the expression?');
   const randomNumberFromZeroToFifty = 51;
   const numberOfPossibleMathOperations = 3;
   const randomNumberOne = Math.floor(Math.random() * randomNumberFromZeroToFifty);

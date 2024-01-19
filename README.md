@@ -4,6 +4,10 @@
 
 [![Actions Status](https://github.com/ThisisHappyEL/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ThisisHappyEL/frontend-project-44/actions)
 
-asciinema по пятому шагу: https://asciinema.org/a/cUdsSRQvJ8CHnFBiMJNadnYX7 (Уже не актуально. Автоматически удалилась. Надеюсь от шестого сохранится)
+asciinema к пятому шагу: https://asciinema.org/a/SQf1M6OaDuQUJdgNqJPtJqHZ3
 
-asciinema по шестому шагу: https://asciinema.org/a/EQbiBujpEHaA4ti4Yr2cyHkEI
+asciinema к шестому шагу: https://asciinema.org/a/EQbiBujpEHaA4ti4Yr2cyHkEI
+
+asciinema к седьмому шагу: https://asciinema.org/a/dDxToep1jmgGS9Gpvi2HdTlpt
+
+asciinema к восьмому шагу: https://asciinema.org/a/vPODwau8X0Ff5RP7CO4NYZGwv

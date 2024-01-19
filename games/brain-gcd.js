@@ -5,9 +5,9 @@ import helloUnknownName from '../src/cli.js';
 import threeRoundsGame from '../src/index.js';
 
 const playerName = helloUnknownName();
-console.log('Find the greatest common divisor of given numbers.');
 
 const brotherhoodNOD = () => {
+  console.log('Find the greatest common divisor of given numbers.');
   const randomNumberFromZeroToFifty = 49;
   const antiZero = 1;
   const randomNumberOne = Math.floor(Math.random() * randomNumberFromZeroToFifty + antiZero);
