@@ -19,7 +19,7 @@ const arithmeticProgression = () => {
   // console.log(`стартовое число ${randomStartsNum}`);
   // console.log(`шаг арифметической прогрессии ${randomStepUp}`);
 
-  for (let i = randomStartsNum; questionArr.length <= 10; i += randomStepUp) {
+  for (let i = randomStartsNum; questionArr.length < 10; i += randomStepUp) {
     questionArr.push(i);
   }
   const correctAnswerToTheQuestion = questionArr[randomPositionHide];
