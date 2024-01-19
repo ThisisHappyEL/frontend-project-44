@@ -27,9 +27,11 @@ const arithmeticProgression = () => {
   const correctAnswerToTheQuestion = questionArr[randomPositionHide];
   questionArr[randomPositionHide] = '..';
 
-  console.log(`Правильный ответ. ${correctAnswerToTheQuestion}`);
+  const questionArrToStringForTZ = questionArr.join(' ');
 
-  console.log(`Question: ${questionArr}`);
+  // console.log(`Правильный ответ. ${correctAnswerToTheQuestion}`);
+
+  console.log(`Question: ${questionArrToStringForTZ}`);
   const playerAnswer = readlineSync.question('Your answer: ');
   if (playerAnswer !== correctAnswerToTheQuestion.toString()) {
     console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswerToTheQuestion}'.\nLet's try again, ${playerName}!`);
