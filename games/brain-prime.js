@@ -7,6 +7,7 @@ import threeRoundsGame from '../src/index.js';
 const playerName = helloUnknownName();
 
 const thisNumberPrime = () => {
+  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
   const randomNumberFromTwoToFifty = 48;
   const antiZeroAndOne = 2;
   const randomNumber = Math.floor(Math.random() * randomNumberFromTwoToFifty + antiZeroAndOne);
@@ -22,7 +23,7 @@ const thisNumberPrime = () => {
   };
 
   console.log(`Question: ${randomNumber}`);
-  console.log(`Правильный ответ. Оставлен для удобства тестирования и записи аскинемы и после будет спрятан под комментарий ${correctAnswerToTheQuestion()}`);
+  // console.log(`Правильный ответ.${correctAnswerToTheQuestion()}`);
   const playerAnswer = readlineSync.question('Your answer: ');
   if (playerAnswer !== correctAnswerToTheQuestion()) {
     console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswerToTheQuestion()}'.\nLet's try again, ${playerName}!`);
